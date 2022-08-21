@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+.container{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:2em;
+    justify-content: center;
+    align-items: center;
+}
+article{
+    padding: 1px;
+    width: 300px;
+    background-color:gainsboro;
+    border-radius: 5px;
+    margin:0.5px;
+    box-shadow: 0ch;
+}
+
+button{
+    padding: 5px;
+    margin: 5px;
+    color:green;
+    font-size: 20px;
+    border: none;
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+.btn-delete{
+    padding: 5px;
+    margin: 5px;
+    color:bisque;
+    font-size: 10px;
+    background-color: lightseagreen;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn-update{
+    padding: 5px;
+    margin: 5px;
+    color:blue;
+    font-size: 10px;
+    border-radius: 3px;
+    color:white;
+    background-color: lightcoral;
+}
+
+img{
+    width: 100%;
+}
+
+form{
+    width: 300px;
+    padding: 2em;
+    background-color:coral;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    flex-direction:column;
+    margin: 2em;
+}
